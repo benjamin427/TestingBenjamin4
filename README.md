@@ -1,15 +1,19 @@
 Introduction:
+
 This developed framework was used to test the e-commerce website ECommerce-Playground (https://ecommerce-playground.lambdatest.io/). This website is designed for selling electronic merchandice.
 
 Installation:
+
 To use Cypress, make sure to download and install NodeJS. 
 
 Project setup:
+
 Go to the Windows terminal and create a project folder by typing the command "mkdir" and "the name of your folder". Also, type the change directory command "cd", and the name of your folder so you're able to be inside the path where the source of the Cypress tool will be located.
 Type the command "npm init" to initialize the project setup.
 After project setup is complete, you will have the opportunity to install any tools from the NodeJS library.
 
 Tools to install in the project using the "npm install" command:
+
 npm install @badeball/cypress-cucumber-preprocessor - Tool used to install Cucumber.
 npm install @bahmutov/cypress-esbuild-preprocessor - Tool used to install the esbuild plugins.
 npm install cypress - Cypress UI automation tool.
@@ -20,6 +24,7 @@ npm install mochawesome-merge - Tool used for combining results after test execu
 npm install mochawesome-report-generator - Tool used for generating a report results after combining the test results.
 
 Starting Cypress:
+
 Type the command "npx cypress open"
 There's a possibility that you will notice a message indicating that you're using Cypress with a version number.
 After typing the cypress open command, there's a pop-up window that will display the cypress logo, and two setup options. 
