@@ -73,6 +73,7 @@ Make sure you insert code in the cypress.config.js file in your IDE as shown her
       html: true,
       json: true
     }
+This code shown above should be located after you type the specPattern: "**/*.feature" location.
 
 
 Here are the commands to use the framework for test execution (make sure to change directory to be in the actual name of the project folder used for the framework in the command line in the windows terminal):
